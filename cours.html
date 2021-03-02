@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <meta charset="utf-8"/>
+    <title>Front-End Development</title>
+   </head>
+<body>
+    <h1> Front-End Development</h1>
+
+    <h2>introduction</h2>
+  <!------->             <h3>THE WEB</h3>
+<ul>
+    <li> 
+        <strong> THE WEB </strong>
+        in a collection of documents written in html, 
+        along with other resources such as images and
+        vidéo.
+    </li>
+
+    <li>
+        IS a <em>HYPERTEXT system</em>: this means that documents,
+        web pages, sites, web apps can contain references 
+        to other documents and users can follow those 
+        references to find related information    
+    </li>
+
+     <li> 
+        <em>HYPERTEXT</em> is all about references and 
+        links 
+    </li>
+
+    <li>A <em>web page </em> can include resources (like vidéo, 
+    images,...) from multiple server</li>
+</ul>
+
+<!------->               <h3>web browser</h3>
+<ul>
+    <li>
+        A <em>web browser</em> is an application like Chrome,
+        Firfox, Edge or Safari,... that is designed for 
+        displaying <em>web pages</em>
+    </li>
+
+    <li> 
+        <em>web pages </em> are usually 
+        stored on <em>server</em>
+    </li>
+
+    <li>
+        usually to load a <em>web page</em> your browser send a 
+        request for that page to a <em>server</em>
+    </li>
+
+    <li>
+        <strong>HTTP</strong> <em>Hypertext Transfer Protocol
+        </em> "http://djkfd.net" or "https://djkfd.com"
+    </li>
+
+    <li>
+        it is telling the web server to use a particular set
+        of rules called HTTP.
+    </li> 
+
+    <li>
+        the difference between addresses with "HTTP:" and "HTTPS"
+        is whether the browser use encryption to keep your data privet
+        (the <mark>S</mark> stands for <mark>Secure</mark>)
+    </li>
+
+    <li>
+        To see your web page in your browser: simply save the file 
+        on your own computer an then load it in the browser.
+    </li>
+
+    <li>
+        to publish your web page : put the file 
+        on an web server
+    </li>
+
+</ul>
+
+<!------->      <h3> HTML</h3>
+<ul>
+    <li>
+        Hypertext Markup Language
+    </li>
+
+    <li>
+        <strong>Text</strong> that the user will actually 
+        read in their browser,
+    </li>
+    
+    <li>
+        <strong>Markup</strong> which tells the browser what
+         that text should look like,
+         or how it's arranged.
+         And within markup, there can be...
+    </li>
+
+    <li>
+        <strong>References</strong> to include other 
+        documents and files, 
+        like images and vidéos
+    </li>
+</ul>
+
+<!-------> <h3>Tag</h3>
+<ul>
+    <li>
+        <br><img src="tag.png" alt=""><br>
+        phrase = element
+    </li>
+
+    <li>
+        tags always start and end with "angle brackets" 
+        <>
+    </li>
+
+    <li>
+        In practice, you'll often see people (including us!) mix 
+        up the terms element and tag.
+        You can usually tell what they mean by the context.
+    </li>
+    
+</ul>
+ <!---------->       <h3>Breaks and empty elements</h3>
+<ul>
+    <li>
+        Whitespace includes spaces, tabs, and line breaks.
+    </li>
+
+    <li> No closing tag in the end because there's 
+        nothing inside a line break
+    </li>
+
+    <li>
+        <strong>BR</strong> elements like this are called 
+         <mark>void elements, or empty elements</mark>
+    </li>
+
+    <li>
+        example "img tag"
+    </li>
+
+    <li>
+        You can create vertical space between pieces 
+        of text by inserting line breaks with br tags, _or_ 
+        by putting the text in paragraphs with p tags.
+    </li>
+</ul>
+<!---------->       <h3>Paragraphs</h3>
+<ul>
+    <li>
+        "P"
+    </li>
+
+    <li>
+        tell the browser about the structure
+    </li>
+</ul>
+
+<!------>    <h3>Nested elements</h3>
+<ul>
+    <li>
+        Nested elements meam the idea that something can go 
+        inside something else 
+    </li>
+
+    <li>
+        "em" This "sup" isn'i "/em" allowed "/sup" 
+        HTML elements can't overlap like this ___ 
+        one must be inside the other!
+    </li>
+</ul>
+
+<!------>            <h3>List and implied close tags</h3>
+
+<ul>
+    <li>
+        <strong> li and P</strong> don't need a closing tag
+        the closing tag is optional.
+    </li>
+
+    <li>
+        p and li are the two elements you've seen with optional
+        closing tags. And the browser knows there has 
+        to be a closing tag when it gets to the start tag 
+        of a new element that can't be inside of the last one.
+        For example, when it gets to the start of a new p 
+        element, it knows the previous p element must be closed.
+    </li>
+
+    
+</ul>
+
+<!------>            <h3>Web addresses</h3>
+
+ <ul>
+     <li>
+         <strong>URL</strong> <em>Uniform Resource Locator</em>
+     </li>
+
+     <li>
+         <strong>UNIFORM</strong> = standardized
+     </li>
+
+     <li>
+         <strong>RESOURCE</strong> = a file or other data object
+     </li>
+
+     <li>
+         <strong>LOCATOR</strong> = address for finding something
+     </li>
+
+     <li>
+         <br><img src="1.PNG" alt="URL">
+     </li>
+
+     <li>
+         <br><img src="2.PNG" alt="">
+     </li>
+
+     <li>
+         <em>Protocol </em>=> the ways that the browser can get something
+     </li>
+
+     <li>
+         <br><em>DOMAIN NAME</em> tells the browser what server to connect to
+     </li>
+
+     <li>
+         <br><img src="3.PNG" alt="">
+     </li>
+ </ul>
+
+<!------>            <h3>Links and the &lt;a&gt; </h3>
+
+<ul>
+    <li>
+        <em> HYPERTEXT</em> means that you can have textual documents,
+        like web pages , but they also have references between them.
+    </li>
+
+    <li>
+        <br>
+        <img src="4.PNG" alt="">
+    </li>
+
+    <li>
+        <br><img src="5.PNG" alt="">
+    </li>
+
+
+    <li>
+        <strong> href </strong> => Hypertext REFerence
+    </li>
+
+    <li>
+        The a element is an inline element. 
+        It doesn't create a box on the page. 
+        Links normally have 
+        the appearance of a specially highlighted piece of text.
+    </li>
+
+</ul>
+
+<!------>            <h3>Adding images</h3>
+<ul>
+    <li>
+        <br>
+        <img src="8.PNG" alt="">
+    </li>
+    <li>
+        <strong>src</strong> source ot image.
+    </li>
+
+    <li>
+        <strong>alt</strong> stands for alternate.
+        <br> tel the browser what text to show if it can't display the 
+        image
+    </li>
+
+    <li>
+        "photo of some bears" usually called alt text.
+    </li>
+
+    <li>
+        <br><img src="9.PNG" alt="">
+    </li>
+
+    <li>
+         img is an inline element
+    </li>
+
+    <li>
+        <br> <img src="10.PNG" alt="">
+    </li>
+
+    <li>
+        <br> <img src="11.PNG" alt="">
+    </li>
+</ul>
+
+<!--------> <h2>html tags </h2>
+
+      <h3>typortaphic elements</h3>
+<ul>
+    <li>
+        <mark>mark</mark> 
+        <br><br>
+    </li>
+
+    <li> 
+        <em>em</em>
+         <br><br>
+    </li>
+
+    <li>  
+          la vie <sub>"sub" submarine</sub>  est belle
+           <br><br>
+    </li>
+
+    <li> 
+           la vie <sup>sup Supmarine</sup>  est  belle
+            <br><br>
+    
+    </li>
+
+    <li>
+         sub and sup stand for "subscript" and "superscript".
+         Originally, HTML started out as a tool for scientific
+         and academic work; and these are really
+         useful for science and math,
+         like writing x2+3x+4 = 1 ==> X<sup>2</sup>+3X+4=0
+         or chemical formulas like H2O ==> H<sub>2</sub>O
+    </li>
+</ul>
+
+   <h3>inline-elements and block-level elements</h3>
+
+<ul>
+    <li>
+        By default, block-level elements begin on new lines,
+        but inline elements can start anywhere in a line.
+    </li>
+
+    <li> 
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements#elements">
+            Block elements
+        </a>
+    </li>
+
+    <li>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements#elements" >
+            Inline elements
+        </a>
+    </li>
+</ul>
+<!------->     <h3>The div element</h3>  
+
+<ul>
+    <li>
+        The div is short for division, because that's what
+         this element is for—you can use it to
+         divide up the page into different sections.
+    </li>
+
+    <li>
+        Like the paragraph p element, the division div 
+        element has an invisible box around it—and just
+         like p, it can have a border, 
+        a margin, a width, a height, and so on.
+    </li>
+
+    <li>
+        <br>
+        <style>
+            p{border: 1px solid red}
+            div{border: 1px solid blue}
+          </style>
+          <div>
+          Call me Ishmael.
+          <br><br>
+          Just don't call me late for dinner.
+          </div>
+          <p>Call me Ishmael.</p>
+          <p>Just don't call me late for dinner.</p>
+
+          <p> the code </p>
+          <pre>
+              <code>
+                   &lt;style&gt;
+                       p{border: 1px solid red}
+                       div{border: 1px solid blue}
+                   &lt;/style&gt;
+
+                   &lt;div&gt;
+                    Call me Ishmael.
+                   &lt;br&gt;
+                   &lt;br&gt;
+                   Just don't call me late for dinner.
+                   &lt;/div&gt;
+                   &lt;p&gt;
+                         Call me Ishmael.
+                   &lt;/p&gt;
+                   &lt;p&gt;
+                      Just don't call me late for dinner.
+                   &lt;/p&gt;
+              </code>
+         </pre>
+    </li>
+</ul> 
+        
+<!--------->      <h3>Head and body</h3>
+
+<ul>
+    <li>
+        <br><img src="12.PNG" alt="">
+    </li>
+
+    <li>
+        <br><img src="13.PNG" alt="">
+    </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--------->    <h3> write a code </h3>
+
+<ul style="border: solid 2px red;">
+    <li>
+        <pre>
+            <code>
+                <!---&lt;=opening tag-->
+                <!---&gt;=closing tag-->
+                &lt;pre&gt;
+                      &lt;p&gt;
+                         &lt;img src="...";<!---NO CLOSING TAG-->
+                      &lt;/p&gt;
+                &lt;/pre&gt;
+            </code>
+        </pre>
+    </li>
+</ul>
+
+
+
+<!------->    <h3>Practice</h3>
+<ul>
+    <li>
+        <img src="prac1.png" alt="somme definition"><br><br>
+    </li>
+
+    <li>
+        Any text editor that uses plain text should work.
+        Code editors use plain text and have extra features
+        to make your life easier (such as syntax highlighting).
+        But stay away from word processors for HTML and programming — 
+        these add extra data that can break your code!
+    </li>
+
+    <li>
+        <br> <img src="6.PNG" alt="">
+    </li>
+
+    <li>
+        <br> <img src="7.PNG" alt="">
+    </li>
+
+    <li>
+        attributes always
+         go inside the start tag of an HTML element. <br>
+         attributes => href="https://www.google.com"
+         or src="kittens.jpg", or alt="Kittens!"?
+    </li>
+
+</ul>
+
+
+
+
+
+
+
+
+ <!---------->      <h3>links to resume</h3>
+
+   
+    <br><br>
+        <iframe src="revision1.pdf" width="600px" height="600px">
+        </iframe>
+
+    <br><br>
+
+        <iframe src="revision2.pdf" width="600px" height="600px">
+        </iframe>
+
+
+
+</body>
+
+</html>
